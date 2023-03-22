@@ -9,7 +9,7 @@ function App() {
 
   // console.log(events);
   return (
-    <div className="App mx-2">
+    <div className="App">
      
       <Carousal2/>
     </div>

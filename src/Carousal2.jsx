@@ -4,7 +4,7 @@ import events from "./data"
 
 export default function Carousal2() {
     return (
-        <div className="carousel max-h-[25rem]">
+        <div className="carousel lg:max-h-[25rem] max-h-[20rem]">
             {
                 events.map((e, key) => {
                     var id = "slide" + (key);
